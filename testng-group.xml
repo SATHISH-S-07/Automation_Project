@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+       <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+  <test thread-count="10" name="Group">
+    <classes>
+      <class name="execute_testNG.Data_providor"/>
+      <class name="execute_testNG.CartTest"/>
+      <class name="execute_testNG.AddressTest"/>
+      <class name="execute_testNG.WishList_Test"/>
+      <class name="execute_testNG.Register"/>
+    </classes>
+  </test>
+</suite> 
+

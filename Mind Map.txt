@@ -1,0 +1,42 @@
+DemoWebShop_Automation/
+├─ src/
+│  ├─ main/
+│  │   ├─ java/
+│  │   │    └─ genric_utilities/
+│  │   │         ├─ Basemethod.java
+│  │   │         ├─ java_utility.java
+│  │   │         ├─ Listeners_Implementation.java
+│  │   │         └─ webdriver_utility.java
+│  │   │
+│  │   └─ resources/
+│  │         ├─ chromedriver.exe
+│  │         ├─ geckodriver.exe
+│  │         ├─ IEDriverServer.exe
+│  │         ├─ msedgedriver.exe
+│  │         └─ operadriver.exe
+│  │
+│  └─ test/
+│      ├─ java/
+│      │    └─ execute_testNG/
+│      │         ├─ AddressTest.java
+│      │         ├─ CartTest.java
+│      │         ├─ Data_providor.java
+│      │         ├─ End_to_End.java
+│      │         ├─ Register.java
+│      │         └─ WishList_Test.java
+│      │
+│      └─ resources/
+│           ├─ screenshots/
+│           └─ Test.xlsx
+│
+├─ pom.xml
+├─ testng.xml
+├─ testng-cross_browser.xml
+├─ testng-group.xml
+├─ testng-parallel-classes.xml
+├─ test-output/
+│    ├─ Default suite/
+│    ├─ junitreports/
+│    ├─ Suite/
+│    ├─testng-results.xml
+│    └─ reports...
