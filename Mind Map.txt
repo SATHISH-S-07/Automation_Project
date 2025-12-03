@@ -29,8 +29,8 @@ DemoWebShop_Automation/
 │           ├─ screenshots/
 │           └─ Test.xlsx
 │
+├─ README.md
 ├─ pom.xml
-├─ testng.xml
 ├─ testng-cross_browser.xml
 ├─ testng-group.xml
 ├─ testng-parallel-classes.xml
